@@ -1,0 +1,17 @@
+[package]
+name = "compact_path_tree"
+version = "0.1.0"
+description = "A data structure providing a compact in-memory representation of a tree of paths"
+authors = ["Dana Marcuse <dana@marcuse.us>"]
+edition = "2018"
+license = "Apache-2.0"
+license-file = "LICENSE.txt"
+readme = "README.md"
+repository = "https://github.com/dmarcuse/compact_path_tree.git"
+categories = ["data-structures", "filesystem"]
+keywords = ["path", "tree", "memory"]
+
+[dependencies]
+
+[dev-dependencies]
+dirs = "3.0.0"
