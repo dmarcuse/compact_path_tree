@@ -15,7 +15,7 @@ For example, this directory structure...
 ...could be represented as the following path:
 
 ```
-outer/a/../b/c/../d/e
+outer/a/../b/c/../d/../../e
 ```
 
 This often saves a significant amount of memory, since every item would otherwise require at least
